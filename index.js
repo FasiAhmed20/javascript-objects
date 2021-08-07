@@ -22,13 +22,16 @@ student.graduated=false;
 console.log(student);
 
 // function inside object and array inside object
-var video={
+var vedio={
     name:'access101',
     play:function(){
         console.log('video played')
     },
     timer:[0,15,20]
 }
+console.log(vedio.name)
+console.log(vedio.play())
+console.log(vedio.timer)
 
 // assigning one Object to another
 var student2=student
